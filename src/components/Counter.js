@@ -21,14 +21,14 @@ export default function Counter() {
         <>
             <p class="flow-text">... on date {date} ...</p>
             <p class="flow-text">... the value is {count}</p>
-            <p class="flow-text" >
-                <a className="btn-small" onClick={increment}>Increment value</a>
+            <p class="flow-text">
+                <button className="btn-small" onClick={increment}>Increment value</button>
             </p>
             <p class="flow-text">
-                <a className="btn-small" onClick={deccrement}>Decrement value</a>
+                <button className="btn-small" onClick={deccrement}>Decrement value</button>
             </p>
             <p class="flow-text">
-                <a className="btn-small" onClick={reset}>Reset value</a>
+                <button className="btn-small" onClick={reset} disabled={count === 0}>Reset value</button>
             </p>
         </>
     );
