@@ -3,10 +3,12 @@ import Counter from "./Counter";
 
 export default function Page1() {
     return (
-        <>
-            <h1>Page 1</h1>
-            <p>To be or not to be ...</p>
-            <Counter/>
-        </>
+        <div className="container">
+            <h1>Materialize, state hook, and context</h1>
+            <div className="card-panel">
+                <p class="flow-text">To be or not to be ...</p>
+                <Counter/>
+            </div>
+        </div>
     )
 }
