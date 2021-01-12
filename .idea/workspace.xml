@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94ab0a5f-5f2f-430f-84bb-7ed77790117a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -46,6 +44,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -62,6 +61,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,7 +74,8 @@
       <updated>1568421749342</updated>
       <workItem from="1568421752216" duration="10761000" />
       <workItem from="1569857854679" duration="1186000" />
-      <workItem from="1583069641525" duration="243000" />
+      <workItem from="1583069641525" duration="297000" />
+      <workItem from="1610451248172" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1568466708017</created>
@@ -104,44 +105,37 @@
       <option name="project" value="LOCAL" />
       <updated>1569857920424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Yarn install">
+      <created>1583069916137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583069916137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Added Materialize css and js" />
     <MESSAGE value="Horverable panel; diable reset if counter 0" />
     <MESSAGE value="Renamed decrement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed decrement" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="581" y="258" key="MultipleFileMergeDialog" timestamp="1583069893561">
-      <screen x="61" y="23" width="1619" height="1027" />
-    </state>
-    <state x="581" y="258" key="MultipleFileMergeDialog/61.23.1619.1027@61.23.1619.1027" timestamp="1583069893561" />
-    <state x="638" y="253" key="RollbackChangesDialog" timestamp="1583069873881">
-      <screen x="61" y="23" width="1619" height="1027" />
-    </state>
-    <state x="638" y="253" key="RollbackChangesDialog/61.23.1619.1027@61.23.1619.1027" timestamp="1583069873881" />
-    <state x="653" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583069884228">
-      <screen x="61" y="23" width="1619" height="1027" />
-    </state>
-    <state x="653" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/61.23.1619.1027@61.23.1619.1027" timestamp="1583069884228" />
+    <MESSAGE value="Yarn install" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yarn install" />
   </component>
 </project>
